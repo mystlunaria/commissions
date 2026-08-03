@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build:netlify"
+  publish = "dist"
+  functions = ".netlify/functions-internal"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server/:splat"
+  status = 200
+
+[dev]
+  command = "npm run dev -- --host 127.0.0.1 --port 8080 --strictPort"
+  port = 8080
