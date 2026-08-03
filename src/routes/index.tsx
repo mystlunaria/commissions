@@ -7,9 +7,9 @@ import { Prices } from "@/components/Prices";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
-const title = "NOVA.gfx — Roblox GFX Commissions & Custom Renders";
+const title = "mystlunaria - GFX Commissions";
 const description =
-  "Premium custom Roblox GFX renders: profile pictures, full body renders, group banners and thumbnails. View the portfolio and commission your own.";
+  "Custom Roblox GFX commissions, icons, thumbnails, and logos.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
