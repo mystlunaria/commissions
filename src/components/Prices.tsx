@@ -70,7 +70,7 @@ export function Prices() {
           <div className="rounded-3xl border border-border/70 bg-background/60 p-6 backdrop-blur">
             <h3 className="font-display text-xl font-semibold">Payment methods</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              I accept cash (PayPal) and Robux payments.
+              I accept cash (PayPal) and Robux payments. 50% upfront, before I start the work, and 50% after I'm done.
             </p>
           </div>
         </Reveal>
