@@ -66,7 +66,7 @@ export function Prices() {
           ))}
         </div>
 
-        <Reveal className="mt-8 max-w-2xl">
+        <Reveal className="mt-8 max-w-5xl">
           <div className="rounded-3xl border border-border/70 bg-background/60 p-6 backdrop-blur">
             <h3 className="font-display text-xl font-semibold">Payment methods</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
